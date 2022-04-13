@@ -1,0 +1,42 @@
+@use '../01-settings/' as *;
+@use '../02-tools/' as *;
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+.form {
+
+    width: 95%;
+    font-family: 'PT Sans', sans-serif;;
+
+    @include medium {
+        width: 50%;
+    }
+    
+    @include large {
+        width: 30%;
+    }
+
+    &__label {
+        font-size: 1.8rem;
+        display: block;
+        margin-bottom: 1rem;
+    }
+
+    &__item {
+        color: $color-text;
+        display: block;
+        width: 100%;
+        font-size: 1.6rem;
+        padding: 1.4rem;
+        background-color: rgba(0, 0, 0, .4);
+        border: 1px solid $color-text;
+        border-radius: .4rem;
+        margin-bottom: 1.5rem;
+        outline: 0;
+        resize: none;
+        font-family: inherit;
+
+        &:focus {
+            background-color: rgba(255, 255, 255, .2);
+        }
+    }
+
+}

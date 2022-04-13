@@ -1,0 +1,28 @@
+@use '../01-settings/' as *;
+@use '../02-tools/' as *;
+
+svg{
+    size: 2;
+}
+
+.box {
+    background-color: $color-bg;
+    border-radius: .6rem;
+    box-shadow: 0px 0px 15px $color-bg-footer;
+    display: block;
+    
+    
+    &__aboutus {
+        min-height: 40vh;
+        color: $color-text;
+        text-align: center;
+        padding: 2rem;
+        font-size: 2.8rem;
+        cursor: pointer;
+        font-family: Roboto, sans-serif;
+       
+        &--prize{
+            color: $color-text;
+        }
+    }
+}

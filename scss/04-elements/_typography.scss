@@ -1,0 +1,9 @@
+@use '../01-settings/' as *;
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+p {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.7rem;
+    line-height: 2.5rem;
+    padding: $grid-base * 1.5;
+    margin-top: $grid-base;
+}

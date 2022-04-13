@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/da7d8086aa.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Travel With Us</title>
+</head>
+<body class="site-body">
+    <header class="site-header">
+        <div class="site-header__blackout blackout"></div>
+        <nav>
+            <ul class="site-header__nav nav">
+                <li class="nav__item"><a class="nav__link" href="#aboutUs">About Us</a></li>
+                <li class="nav__item"><a class="nav__link" href="#Destinations">Destinations</a></li>
+                <li class="nav__item"><a class="nav__link" href="#Location">Location</a></li>
+                <li class="nav__item"><a class="nav__link" href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+        <h1 class="site-header__h1 heading--h1">Travel Agency</h1>
+        <a class="site-header__button btn btn--header btn--circle" href="#Destinations">Destinations</a>
+    </header>
+    <main>
+        <section class="site-section" id="aboutUs">
+            <h2 class="heading--h2">About Us</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col col--md33 ">
+                        <div class="box">
+                            <div class="box__aboutus">
+                                <i class="fa-solid fa-people-group"></i>
+                                <h2>Friendly atmosphere</h2>
+                                <div class="box__aboutus--atmosphere">
+                                   <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis necessitatibus pariatur reprehenderit, aspernatur saepe rerum vitae quae dolorem, ut veritatis hic nihil debitis enim impedit accusantium quis similique qui numquam!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col--md33">
+                        <div class="box">
+                            <div class="box__aboutus"> 
+                                <i class="fa-solid fa-dollar-sign"></i>
+                                <h2>Good prices</h2>
+                            <div class="box__aboutus--prize">
+                              <p>  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis necessitatibus pariatur reprehenderit, aspernatur saepe rerum vitae quae dolorem, ut veritatis hic nihil debitis enim impedit accusantium quis similique qui numquam! </p>
+                            </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="col col--md33">
+                        <div class="box">
+                            <div class="box__aboutus">
+                                <i class="fa-solid fa-globe"></i>
+                                    <h2>Interesting journeys</h2>
+                                    <div class="box__aboutus--creative">
+                                        <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis necessitatibus pariatur reprehenderit, aspernatur saepe rerum vitae quae dolorem, ut veritatis hic nihil debitis enim impedit accusantium quis similique qui numquam!</p>
+                                    </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>       
+        </section>
+        <section class="site-section site-section--bg-color" id="Destinations">
+            <h2 class="heading--h2 text-color-white">Destinations</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col col--md50 col--lg25">
+                        <div class="image-box">
+                            <div class="image-box__image image-box__image--italy"></div>
+                            <div class="image-box__text">Italy.</div>
+                        </div>
+                    </div>
+                    <div class="col col--md50 col--lg25">
+                        <div class="image-box">
+                            <div class="image-box__image image-box__image--france"></div>
+                            <div class="image-box__text">France.</div>
+                        </div>
+                    </div>
+                    <div class="col col--md50 col--lg25">
+                        <div class="image-box">
+                            <div class="image-box__image image-box__image--croatia"></div>
+                            <div class="image-box__text">Croatia.</div>
+                        </div>
+                    </div>
+                    <div class="col col--md50 col--lg25">
+                        <div class="image-box">
+                            <div class="image-box__image image-box__image--iceland"></div>
+                            <div class="image-box__text">Iceland.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="site-section" id="Location">
+            <h2 class="heading--h2">Location</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2561.1219166082724!2d19.9425896156837!3d50.065278379424086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47165b107de836c9%3A0x13bf250c3e6d5faf!2sPawia%206%2C%2031-154%20Krak%C3%B3w!5e0!3m2!1spl!2spl!4v1643832142256!5m2!1spl!2spl" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="site-contact" id="contact">
+            <div class="blackout site-contact__blackout"></div>
+            <h2 class="heading--h2 site-contact__h2">Contact</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <form class="form site-contact__form">
+                            <label class="form__label" for="mail"> e-mail</label>
+                            <input class="form__item" id="mail">
+                            <label class="form__label" for="subject">Topic</label>
+                            <input class="form__item" id="subject">
+                            <label class="form__label" for="message">Content</label>
+                            <textarea class="form__item" id="message" cols="10" rows="3"></textarea>
+                            <input class="form__item" class="btn btn--outline" type="submit" value="Send">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <p class="col col--md33">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, perferendis.</p>
+                <p class="col col--md33">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, perferendis.</p>
+                <p class="col col--md33">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, perferendis.</p>
+            </div>
+        </div>
+    </footer>
+    <div class="site-body__social social">
+        <div class="social__item social__item--twitter"></div>
+        <div class="social__item social__item--youtube"></div>
+        <div class="social__item social__item--in"></div>
+        <div class="social__item social__item--facebook"></div>
+    </div>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
